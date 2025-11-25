@@ -16,6 +16,8 @@ public class Accelerator : MonoBehaviour
         Rigidbody rigidbody = GetComponent<Rigidbody>();
         rigidbody.AddTorque(new Vector3(TorchDir.y * 10, 0, -TorchDir.x * 10));
 
+        
+
         Debug.Log("OnMove called");
     }
 
