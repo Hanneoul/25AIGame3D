@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "InputSystem_Torch",
+    "maps": [
+        {
+            "name": "SphereMove",
+            "id": "d9dfef9d-4a8f-429e-a359-c73cb28e029c",
+            "actions": [
+                {
+                    "name": "MoveUp",
+                    "type": "Button",
+                    "id": "b54d1a45-1359-45cf-b8de-996770a36071",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b7318d58-4f11-465c-9e65-984a41bf6602",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
